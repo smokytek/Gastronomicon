@@ -2,6 +2,7 @@ package io.github.schntgaispock.gastronomicon;
 
 import io.github.schntgaispock.gastronomicon.util.StringUtil;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem;
+import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
@@ -23,6 +24,7 @@ import java.util.Map;
 final class ItalianTranslations {
 
     private static final Field ITEM_STACK_TEMPLATE = itemStackTemplateField();
+    private static final Field ITEM_STACK_LOCKED = itemStackLockedField();
 
     private static final List<String> FILES = Arrays.asList(
         "basic_machines.yml", "electric_machines.yml", "food.yml", "raw_ingredients.yml", "tools.yml"
@@ -78,14 +80,24 @@ final class ItalianTranslations {
 
     private static boolean translate(SlimefunItem slimefunItem, Translation translation) {
         if (translation.name == null) return false;
-        ItemStack item = new ItemStack(slimefunItem.getItem());
+        ItemStack item = null;
         try {
-            if (!translate(item, translation)) return false;
-            ITEM_STACK_TEMPLATE.set(slimefunItem, item);
+            item = (ItemStack) ITEM_STACK_TEMPLATE.get(slimefunItem);
+            if (item instanceof SlimefunItemStack) {
+                ITEM_STACK_LOCKED.setBoolean(item, false);
+            }
+            return translate(item, translation);
         } catch (IllegalAccessException ex) {
             return false;
+        } finally {
+            try {
+                if (item instanceof SlimefunItemStack) {
+                    ITEM_STACK_LOCKED.setBoolean(item, true);
+                }
+            } catch (IllegalAccessException ignored) {
+                // Il modello deve comunque rimanere utilizzabile anche se il riblocco fallisce.
+            }
         }
-        return true;
     }
 
     private static boolean translate(ItemStack item, Translation translation) {
@@ -104,6 +116,16 @@ final class ItalianTranslations {
     private static Field itemStackTemplateField() {
         try {
             Field field = SlimefunItem.class.getDeclaredField("itemStackTemplate");
+            field.setAccessible(true);
+            return field;
+        } catch (ReflectiveOperationException ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
+    }
+
+    private static Field itemStackLockedField() {
+        try {
+            Field field = SlimefunItemStack.class.getDeclaredField("locked");
             field.setAccessible(true);
             return field;
         } catch (ReflectiveOperationException ex) {
