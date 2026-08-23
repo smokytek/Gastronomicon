@@ -1,4 +1,20 @@
-# Gastronomicon
+# Gastronomicon Italiano
+
+Fork italiana autonoma di Gastronomicon. Nomi e descrizioni degli oggetti sono
+incorporati nel file JAR: **SlimefunTranslation non è necessario**. Gli ID
+Slimefun originali restano invariati per preservare mondi e ricette esistenti.
+
+## Installazione
+
+Installa Slimefun, rimuovi l'eventuale Gastronomicon originale, copia il JAR di
+questa versione nella cartella `plugins` e riavvia il server.
+
+Progetto originale: https://github.com/SchnTgaiSpock/Gastronomicon
+
+Modifica italiana preparata il 23 agosto 2026 e distribuita secondo la licenza
+del progetto originale.
+
+## Informazioni originali
 
 A Slimefun addon that adds even more foodstuffs to the game. Best used along with [ExoticGarden](https://github.com/TheBusyBiscuit/ExoticGarden).
 

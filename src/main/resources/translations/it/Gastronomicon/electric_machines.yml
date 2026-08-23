@@ -1,0 +1,41 @@
+name: Gastronomicon
+translations:
+  GN_FISHING_NET_III:
+    name: '&x&A&A&A&A&F&FRetino da Pesca &7- &eIII'
+    lore:
+    - ''
+    - '&8⇨ &b⚡ &7Velocità: &b4.0x'
+  GN_ELECTRIC_KITCHEN_III:
+    name: '&x&A&A&A&A&F&FCucina Elettrica &7- &eIII'
+    lore:
+    - ''
+    - '&4Macchinario EndGame'
+    - '&8⇨ &e⚡ &74096 J Buffer'
+    - '&8⇨ &e⚡ &7256 J/s'
+    - '&8⇨ &b⚡ &7Velocità: &b10.0x'
+  GN_FISHING_NET_I:
+    name: '&x&A&A&A&A&F&FRetino da Pesca'
+    lore:
+    - ''
+    - '&8⇨ &b⚡ &7Velocità: &b1.0x'
+  GN_ELECTRIC_KITCHEN_I:
+    name: '&x&A&A&A&A&F&FCucina Elettrica'
+    lore:
+    - ''
+    - '&4Macchinario EndGame'
+    - '&8⇨ &e⚡ &7256 J Buffer'
+    - '&8⇨ &e⚡ &716 J/s'
+    - '&8⇨ &b⚡ &7Velocità: &b1.0x'
+  GN_ELECTRIC_KITCHEN_II:
+    name: '&x&A&A&A&A&F&FCucina Elettrica &7- &eII'
+    lore:
+    - ''
+    - '&4Macchinario EndGame'
+    - '&8⇨ &e⚡ &71024 J Buffer'
+    - '&8⇨ &e⚡ &764 J/s'
+    - '&8⇨ &b⚡ &7Velocità: &b3.0x'
+  GN_FISHING_NET_II:
+    name: '&x&A&A&A&A&F&FRetino da Pesca &7- &eII'
+    lore:
+    - ''
+    - '&8⇨ &b⚡ &7Velocità: &b2.0x'

@@ -1,0 +1,59 @@
+name: Gastronomicon
+translations:
+  GN_CHEFS_HAT:
+    name: '&x&5&5&F&F&F&FChef''s Hat'
+  GN_BLENDER:
+    name: '&x&F&F&F&F&F&FBlender'
+  GN_ROLLING_PIN:
+    name: '&x&F&F&F&F&F&FRolling Pin'
+  GN_STEEL_POT:
+    name: '&x&F&F&F&F&F&FSteel Pot'
+  GN_WOODEN_SICKLE:
+    name: '&x&5&5&F&F&F&FWooden Sickle'
+    lore:
+    - ''
+    - '&x&A&A&A&A&A&AIncreases drops from some crops'
+  GN_REINFORCED_SICKLE:
+    name: '&x&5&5&F&F&F&FReinforced Sickle'
+    lore:
+    - ''
+    - '&x&A&A&A&A&A&AIncreases drops from some crops'
+  GN_DISTILLATION_CHAMBER:
+    name: '&x&F&F&F&F&F&FDistillation Chamber'
+  GN_STEEL_BOWL:
+    name: '&x&F&F&F&F&F&FSteel Bowl'
+  GN_BAKING_TRAY:
+    name: '&x&F&F&F&F&F&FBaking Tray'
+  GN_MORTAR_AND_PESTLE:
+    name: '&x&F&F&F&F&F&FMortar and Pestle'
+  GN_CRAB_TRAP:
+    name: '&x&F&4&A&5&1&DCrab Trap'
+    lore:
+    - ''
+    - '&x&A&A&A&A&A&AUsed to catch crabs.'
+    - '&x&A&A&A&A&A&APlace on the ground and right click'
+    - '&x&A&A&A&A&A&Awhen white particles appear'
+  GN_KITCHEN_KNIFE:
+    name: '&x&F&F&F&F&F&FKitchen Knife'
+  GN_PEELER:
+    name: '&x&F&F&F&F&F&FPeeler'
+  GN_WHISK:
+    name: '&x&F&F&F&F&F&FWhisk'
+  GN_HUNTING_TRAP:
+    name: '&x&F&4&A&5&1&DHunting Trap'
+    lore:
+    - ''
+    - '&x&A&A&A&A&A&AUsed to catch certain animals.'
+    - '&x&A&A&A&A&A&APlace on the ground and right click'
+    - '&x&A&A&A&A&A&Awhen white particles appear'
+  GN_STEEL_WIRE:
+    name: '&x&F&4&A&5&1&DSteel Wire'
+  GN_STEEL_SPRING:
+    name: '&x&F&4&A&5&1&DSteel Spring'
+  GN_STEEL_SICKLE:
+    name: '&x&5&5&F&F&F&FSteel Sickle'
+    lore:
+    - ''
+    - '&x&A&A&A&A&A&AIncreases drops from some crops'
+  GN_FRYING_PAN:
+    name: '&x&F&F&F&F&F&FFrying Pan'

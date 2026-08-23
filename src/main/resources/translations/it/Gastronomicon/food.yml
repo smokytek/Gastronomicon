@@ -1,0 +1,1578 @@
+name: Gastronomicon
+translations:
+  GN_PERFECT_SHRIMP_FRIED_RICE:
+    name: '&x&C&9&1&D&F&4Riso fritto con gamberi'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_OATMEAL:
+    name: '&x&C&9&1&D&F&4Farina d''avena'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_HAM_AND_SPLIT_PEA_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Prosciutto e Piselli'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Nausea'
+  GN_BROCCOLI_CHOWDER:
+    name: '&x&1&D&9&0&F&4Zuppa di Broccoli'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_CLAM_STEW:
+    name: '&x&C&9&1&D&F&4Zuppa di Vongole'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +75'
+  GN_TUNA_SANDWICH:
+    name: '&x&1&D&9&0&F&4Panino al Tonno'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza I (30s)'
+  GN_BBQ_PORK:
+    name: '&x&1&D&9&0&F&4BBQ con porchetta'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_ENCHANTED_GOLDEN_CARROT:
+    name: '&x&1&D&9&0&F&4Carota Dorata Incantata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla gli effetti di darkness'
+    - '&8‑ &bAnnulla gli effetti di blindness'
+    - '&8‑ &9Visione Notturna I (900s)'
+  GN_PERFECT_CREAM_OF_MUSHROOM_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa alla Crema di Funghi'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_RED_BEAN_GLUTINOUS_RICE_BALLS:
+    name: '&x&1&D&9&0&F&4Palline di riso glutinoso con fagioli rossi'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_MUSHROOM_RAVIOLI:
+    name: '&x&1&D&9&0&F&4Ravioli ai funghi'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_PERFECT_MASHED_TURNIPS:
+    name: '&x&C&9&1&D&F&4Pure di Rape'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_HONEYDEW_MELON_BUBBLE_TEA:
+    name: '&x&1&D&9&0&F&4Bubble tea al melone'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_BUTTER_CHICKEN:
+    name: '&x&C&9&1&D&F&4Pollo al burro'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza II (38s)'
+  GN_CLAM_STEW:
+    name: '&x&1&D&9&0&F&4Stufato di Vongole'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +50'
+  GN_CRANBERRY_MUFFIN:
+    name: '&x&1&D&9&0&F&4Muffin al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_KETCHUP:
+    name: '&x&F&F&F&F&5&5Ketchup'
+  GN_NAAN_BREAD:
+    name: '&x&F&F&F&F&5&5Pane Indiano'
+  GN_PERFECT_SQUID_INK_PASTA:
+    name: '&x&C&9&1&D&F&4Pasta al nero di seppia'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+  GN_PERFECT_SESAME_GLUTINOUS_RICE_BALLS:
+    name: '&x&C&9&1&D&F&4Palline di riso glutinoso con sesamo'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_CHOCOLATE_TRUFFLE:
+    name: '&x&1&D&9&0&F&4Tartufo al Cioccolato'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_PERFECT_STIR_FRY_NOODLES:
+    name: '&x&C&9&1&D&F&4Noodles saltati in padella'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_SALMON_ROE_SUSHI_ROLL:
+    name: '&x&C&9&1&D&F&4Sushi roll con uova di salmone'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_SALMON_CHOWDER:
+    name: '&x&1&D&9&0&F&4Zuppa di Salmone'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+  GN_CORN_CHOWDER:
+    name: '&x&1&D&9&0&F&4Zuppa di Mais'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_SALMON_ROE_SUSHI_ROLL:
+    name: '&x&1&D&9&0&F&4Sushi roll con uova di salmone'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_BAKED_BEANS:
+    name: '&x&F&F&F&F&5&5Zuppa di Fagioli Cotti'
+  GN_CHICKEN_AND_QUINOA_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Pollo e Quinoa'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_HAM_AND_SPLIT_PEA_SOUP:
+    name: '&x&C&9&1&D&F&4Prosciutto e Crema di Piselli'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Nausea'
+  GN_PERFECT_APPLE_CIDER:
+    name: '&x&C&9&1&D&F&4Sidro di mele'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea IV (75s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_PERFECT_GOLDEN_CHOCOLATE_DONUT:
+    name: '&x&C&9&1&D&F&4Ciambella al cioccolato dorata'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_BACON_PIEROGIES:
+    name: '&x&1&D&9&0&F&4Pierogi al bacon'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_VEGETABLE_UDON:
+    name: '&x&1&D&9&0&F&4Udon vegetale'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_DONUT:
+    name: '&x&1&D&9&0&F&4Ciambella'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_PERFECT_CHICKEN_PESTO_PASTA:
+    name: '&x&C&9&1&D&F&4Pasta al pesto con pollo'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_BEEF_BARLEY_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Manzo e Orzo'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +70'
+  GN_PERFECT_SPLIT_PEA_SOUP:
+    name: '&x&C&9&1&D&F&4Vellutata di Piselli'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Nausea'
+  GN_RYE_FLOUR:
+    name: '&x&F&F&F&F&5&5Farina di segale'
+  GN_GROUND_BEEF:
+    name: '&x&F&F&F&F&5&5Carne di manzo macinata'
+  GN_GOLDEN_CHOCOLATE_DONUT:
+    name: '&x&1&D&9&0&F&4Ciambella al cioccolato dorata'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_PERFECT_ORANGE_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato all''arancia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_WHISKEY:
+    name: '&x&1&D&9&0&F&4Whiskey'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea V (120s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_PERFECT_BACON_PIEROGIES:
+    name: '&x&C&9&1&D&F&4Pierogi al bacon perfetti'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_CARAMEL_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al caramello'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_MISO_SOUP:
+    name: '&x&C&9&1&D&F&4MZuppa Miso'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +75'
+  GN_PERFECT_STRAWBERRY_SHAVED_ICE:
+    name: '&x&C&9&1&D&F&4Gelato alla fragola'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_PERFECT_CHICKEN_POTSTICKERS:
+    name: '&x&C&9&1&D&F&4Ravioli di Pollo'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_CHORUS_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al frutto di chorus'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &7Ti teletrasporta da qualche parte entro 5 blocchi di distanza'
+  GN_MISO_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa Miso'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +50'
+  GN_RED_BEAN_BUNS:
+    name: '&x&1&D&9&0&F&4Panini ai fagioli rossi'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_GREEK_SALAD:
+    name: '&x&1&D&9&0&F&4Insalata Greca'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +1'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_PERFECT_CREAM_OF_BROCCOLI_SOUP:
+    name: '&x&C&9&1&D&F&4Vellutata di Broccoli'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_PERFECT_RASPBERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al lampone'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_CREAM_OF_MUSHROOM_SOUP:
+    name: '&x&1&D&9&0&F&4Vellutata di Funghi'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_PIEROGIES:
+    name: '&x&C&9&1&D&F&4Pierogi'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_PERFECT_CHOCOLATE_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al cioccolato'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_LEMON_TART:
+    name: '&x&1&D&9&0&F&4Tartare al limone'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità I (120s)'
+  GN_CUSTARD:
+    name: '&x&F&F&F&F&5&5Crema pasticcera'
+  GN_PERFECT_DONUT:
+    name: '&x&C&9&1&D&F&4Ciambella perfetta'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_CURRY_RICE:
+    name: '&x&1&D&9&0&F&4Riso al curry'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza I (30s)'
+  GN_SQUID_INK_PASTA:
+    name: '&x&1&D&9&0&F&4Pasta al nero di seppia'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+  GN_TEMPURA_SHRIMP_ROLL:
+    name: '&x&1&D&9&0&F&4Roll di gamberi in tempura'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_CARROT_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di carota'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla gli effetti Cecità'
+  GN_PERFECT_TEMPURA_SHRIMP:
+    name: '&x&C&9&1&D&F&4Tempura di Gambero'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_CHORUS_PIE:
+    name: '&x&1&D&9&0&F&4Crostata ai frutti di chorus'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &7Ti teletrasporta da qualche parte entro 5 blocchi di distanza'
+  GN_PERFECT_CHICKEN_BARLEY_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di Pollo e Orzo'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +105'
+  GN_PERFECT_TEMPURA_BROCCOLI:
+    name: '&x&C&9&1&D&F&4Broccoli in tempura'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_STRAWBERRY_CHEESECAKE:
+    name: '&x&1&D&9&0&F&4Cheesecake alla fragola'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+  GN_CHICKEN_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Pollo'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_MARMALADE_SANDWICH:
+    name: '&x&1&D&9&0&F&4Panino alla Marmellata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza I (30s)'
+  GN_CUSTARD_BUNS:
+    name: '&x&1&D&9&0&F&4Panino alla crema pasticcera'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_TUNA_SANDWICH:
+    name: '&x&C&9&1&D&F&4Panino al Tonno'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza II (38s)'
+  GN_PERFECT_RUM:
+    name: '&x&C&9&1&D&F&4Rum'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea VI (150s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_PERFECT_CONGEE:
+    name: '&x&C&9&1&D&F&4Porridge di Riso perfetto'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_RUM:
+    name: '&x&1&D&9&0&F&4Rum'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea V (120s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_PERFECT_CHICKEN_NOODLE_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di Pollo e Noodles'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_BROCCOLI_CHOWDER:
+    name: '&x&C&9&1&D&F&4Zuppa di Broccoli'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_BANANA_SHAVED_ICE:
+    name: '&x&C&9&1&D&F&4Ghiaccio Tritato alla banana'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_PERFECT_BAKED_BEANS_AND_TOAST:
+    name: '&x&C&9&1&D&F&4Tost con fagioli cotti'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza II (113s) &8(75.0%)'
+  GN_BEEF_AND_LENTIL_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Manzo e Lenticchie'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Saturazione II (10s)'
+  GN_RASPBERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al lampone'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_DYNAMITE_ROLL:
+    name: '&x&C&9&1&D&F&4Roll Dinamite'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_TAPIOCA_STARCH:
+    name: '&x&F&F&F&F&5&5Amido di tapioca'
+  GN_CREAM_OF_BROCCOLI_SOUP:
+    name: '&x&1&D&9&0&F&4Crema di Broccoli'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_STRAWBERRY_CUPCAKE:
+    name: '&x&C&9&1&D&F&4Cupcake alla fragola'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_CHICKEN_NOODLE_SOUP_WITH_BOK_CHOY:
+    name: '&x&1&D&9&0&F&4Zuppa di Pollo e Noodles con Bok Choy'
+    lore:
+    - '&7&o+&b&o8.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PEANUT_GLUTINOUS_RICE_BALLS:
+    name: '&x&1&D&9&0&F&4Palline di riso glutinoso con arachidi'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_COWBERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_WHISKEY:
+    name: '&x&C&9&1&D&F&4Whiskey'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea VI (150s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_PERFECT_RICE_OMELETTE:
+    name: '&x&C&9&1&D&F&4Omelette di Riso'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_BBQ_CHICKEN:
+    name: '&x&C&9&1&D&F&4BBQ Pollo'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_ENCHANTED_GOLDEN_CARROT:
+    name: '&x&C&9&1&D&F&4Carota d''oro incantata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla gli effetti di darkness'
+    - '&8‑ &bAnnulla gli effetti Cecità'
+    - '&8‑ &9Visuale Notturna II (1125s)'
+  GN_OATMEAL:
+    name: '&x&1&D&9&0&F&4Farina d''avena'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_BEEF_BARLEY_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di Manzo e Lenticchie'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +105'
+  GN_RED_BEAN_PASTE:
+    name: '&x&F&F&F&F&5&5Pasta di fagioli rossi'
+  GN_POPPED_SORGHUM:
+    name: '&x&1&D&9&0&F&4Sorgo Soffiato'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_TOFU:
+    name: '&x&F&F&F&F&5&5Tofu'
+  GN_PERFECT_GLOWING_SQUID_INK_PASTA:
+    name: '&x&C&9&1&D&F&4Pasta al nero di seppia luminoso'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Luminescenza II (150s)'
+  GN_BBQ_CHICKEN:
+    name: '&x&1&D&9&0&F&4BBQ Pollo'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_CALIFORNIA_ROLL:
+    name: '&x&C&9&1&D&F&4California Roll'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_GUARDIAN_FIN_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di pinne di guardiano'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +75'
+  GN_PERFECT_VODKA:
+    name: '&x&C&9&1&D&F&4Vodka'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea VI (150s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_PERFECT_MARMALADE_SANDWICH:
+    name: '&x&C&9&1&D&F&4Panino alla Marmellata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza II (38s)'
+  GN_BBQ_STEAK:
+    name: '&x&1&D&9&0&F&4Bistecca BBQ'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_CHERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato alla ciliegia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_CHOCOLATE_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al cioccolato'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_MINT_CHOCOLATE_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato alla menta'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_CHICKEN_NOODLE_SOUP_WITH_BOK_CHOY:
+    name: '&x&C&9&1&D&F&4Gelato alla ciliegia'
+    lore:
+    - '&7&o+&b&o8.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_MUSHROOM_BARLEY_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Funghi e Orzo'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +70'
+  GN_PERFECT_CURRY_RICE:
+    name: '&x&C&9&1&D&F&4Riso al curry'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza II (38s)'
+  GN_PERFECT_CHICKEN_UDON:
+    name: '&x&C&9&1&D&F&4Pollo Udon'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_CRANBERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PEANUT_BUTTER:
+    name: '&x&F&F&F&F&5&5Burro di arachidi'
+  GN_PERFECT_CHOCOLATE_TRUFFLE:
+    name: '&x&C&9&1&D&F&4Tarufo al cioccolato'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_PERFECT_APPLE_BUBBLE_TEA:
+    name: '&x&C&9&1&D&F&4Bubble Tea alla mela'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+
+    - ''
+  GN_BEER:
+    name: '&x&1&D&9&0&F&4Birra'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea III (60s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_PERFECT_PBJ_SANDWICH:
+    name: '&x&C&9&1&D&F&4PB&J Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza II (113s) &8(75.0%)'
+  GN_SESAME_GLUTINOUS_RICE_BALLS:
+    name: '&x&1&D&9&0&F&4Palle di riso glutinoso al sesamo'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_STRAWBERRY_CHEESECAKE:
+    name: '&x&C&9&1&D&F&4Cheesecake alla fragola'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+  GN_STRAWBERRY_CUPCAKE:
+    name: '&x&1&D&9&0&F&4Cupcake alla fragola'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_CHERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato alla ciliegia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_EGG_SALAD_SANDWICH:
+    name: '&x&1&D&9&0&F&4Panino con uova e insalata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità I (30s)'
+  GN_TOAST:
+    name: '&x&F&F&F&F&5&5Toast'
+  GN_PERFECT_FRIED_SHRIMP:
+    name: '&x&C&9&1&D&F&4Gamberetti fritti'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_PERFECT_LENTIL_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di Lenticchie'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Saturazione II (7s)'
+  GN_TURKEY_ROAST:
+    name: '&x&1&D&9&0&F&4Tacchino arrosto'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+  GN_VANILLA_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato alla vaniglia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_SHRIMP_FRIED_RICE:
+    name: '&x&1&D&9&0&F&4Riso fritto con gamberetti'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_MINT_CHOCOLATE_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato alla menta'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_LENTIL_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di Lenticchie'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Saturazione I (5s)'
+  GN_PERFECT_CRAB_HOTPOT:
+    name: '&x&C&9&1&D&F&4Hotpot di granchio'
+    lore:
+    - '&7&o+&b&o8.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +210'
+  GN_COCONUT_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al cocco'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_SHRIMP_DUMPLINGS:
+    name: '&x&1&D&9&0&F&4Polpette di gamberetti'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_PERFECT_GREEN_TEA_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al tè verde'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_TAIYAKI:
+    name: '&x&1&D&9&0&F&4Taiyaki'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_CAESAR_SALAD:
+    name: '&x&1&D&9&0&F&4Insalata Caesar'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +1'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_PAN_SEARED_SALMON:
+    name: '&x&1&D&9&0&F&4Salmone scottato in padella'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_GREEN_TEA_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al tè verde'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_BBQ_STEAK:
+    name: '&x&C&9&1&D&F&4Bistecca BBQ'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_PERFECT_SALMON_CHOWDER:
+    name: '&x&C&9&1&D&F&4Zuppa di Salmone'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+  GN_BARLEY_FLOUR:
+    name: '&x&F&F&F&F&5&5Farina d''Orzo'
+  GN_PERFECT_CRANBERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_V7:
+    name: '&x&1&D&9&0&F&4V7'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione I (20s)'
+  GN_ENCHANTED_GLISTERING_MELON_SLICE:
+    name: '&x&1&D&9&0&F&4Fetta di cocomero scintillante incantata'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &9Rigenerazione I (120s)'
+  GN_ORANGE_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato all''arancia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_DYNAMITE_ROLL:
+    name: '&x&1&D&9&0&F&4Roll Dinamite'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PEANUT_BUTTER_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al burro di arachidi'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_SHAVED_ICE:
+    name: '&x&C&9&1&D&F&4Ghiaccio tritato perfetto'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_PERFECT_CHORUS_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato di Chorus'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &7Ti teletrasporta da qualche parte entro 7 blocchi di distanza'
+  GN_PERFECT_PEACH_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato alla pesca'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_HONEY_DIP_DONUT:
+    name: '&x&C&9&1&D&F&4Ciambella glassata al miele'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_MISO:
+    name: '&x&F&F&F&F&5&5Miso'
+  GN_CONGEE:
+    name: '&x&1&D&9&0&F&4Porridge di Riso '
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_VANILLA_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato alla vaniglia'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_RED_BEAN_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato al fagiolo rosso'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_COOKIE_DOUGH_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Gelato di Pasta di Biscotti'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_FISH_AND_CHIPS:
+    name: '&x&1&D&9&0&F&4Pesce e Patate Fritte'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PULLED_PORK:
+    name: '&x&F&F&F&F&5&5Maiale sfilacciato'
+  GN_CANDY_APPLE:
+    name: '&x&1&D&9&0&F&4Mela caramellata'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_SHRIMP_DUMPLINGS:
+    name: '&x&C&9&1&D&F&4Gnocchi di gamberi'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_PERFECT_CREAM_OF_ASPARAGUS_SOUP:
+    name: '&x&C&9&1&D&F&4Zuppa di asparagi'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_CHICKEN_RAVIOLI:
+    name: '&x&1&D&9&0&F&4Ravioli di pollo'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_PERFECT_BARLEY_PORRIDGE:
+    name: '&x&C&9&1&D&F&4Porridge d''orzo'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_BBQ_MUTTON:
+    name: '&x&C&9&1&D&F&4Grigliata di Montone '
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_CALIFORNIA_ROLL:
+    name: '&x&1&D&9&0&F&4Roll California'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_TEMPURA_SHRIMP_ROLL:
+    name: '&x&C&9&1&D&F&4Roll di gamberi in tempura'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_HAM_SANDWICH:
+    name: '&x&C&9&1&D&F&4Panino al prosciutto'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione II (38s)'
+  GN_CARROT_MUFFIN:
+    name: '&x&1&D&9&0&F&4Muffin alla carota'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_STRAWBERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato alla fragola'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_RICE_OMELETTE:
+    name: '&x&1&D&9&0&F&4Omelette di Riso'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +1'
+  GN_TAPIOCA_PEARLS:
+    name: '&x&F&F&F&F&5&5Perle di Tapioca'
+  GN_PERFECT_EGG_SALAD_SANDWICH:
+    name: '&x&C&9&1&D&F&4Panino con uova e insalata'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità II (38s)'
+  GN_PERFECT_CORN_CHOWDER:
+    name: '&x&C&9&1&D&F&4Zuppa di mais'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_BUTTER_CHICKEN:
+    name: '&x&1&D&9&0&F&4Pollo al burro'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza I (30s)'
+  GN_CRAB_HOTPOT:
+    name: '&x&1&D&9&0&F&4Hotpot di granchio'
+    lore:
+    - '&7&o+&b&o8.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +140'
+  GN_PERFECT_BEEF_UDON:
+    name: '&x&C&9&1&D&F&4Manzo Udon'
+    lore:
+    - '&7&o+&b&o6.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_PERFECT_COOKIE_DOUGH_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al biscotto'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_KAPPA_ROLL:
+    name: '&x&C&9&1&D&F&4Roll di cetriolo'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_APPLE_BUBBLE_TEA:
+    name: '&x&1&D&9&0&F&4Bubble Tea alla mela'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_PEANUT_BUTTER_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al burro di arachidi'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_CHICKEN_NOODLE_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di pollo e noodles'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_BEEF_POTSTICKERS:
+    name: '&x&1&D&9&0&F&4Zuppa di manzo e ravioli cinesi'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+  GN_CHICKEN_UDON:
+    name: '&x&1&D&9&0&F&4Zuppa di pollo e udon'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_COWBERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Gelato al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_BREAKFAST_SANDWICH:
+    name: '&x&C&9&1&D&F&4Panino da colazione'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione II (113s) &8(75.0%)'
+  GN_CHICKEN_PESTO_PASTA:
+    name: '&x&1&D&9&0&F&4Zuppa di pollo e pesto'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_BUBBLE_MILK_TEA:
+    name: '&x&1&D&9&0&F&4Tè al latte con bubble'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_FIDDLEHEAD_SALAD:
+    name: '&x&1&D&9&0&F&4Cime di Felce'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +1'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_CANTALOUPE_BUBBLE_TEA:
+    name: '&x&1&D&9&0&F&4Bubble Tea al melone cantalupo'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_CHICKEN_BARLEY_SOUP:
+    name: '&x&1&D&9&0&F&4Zuppa di pollo e orzo'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +70'
+  GN_CREAM_OF_ASPARAGUS_SOUP:
+    name: '&x&1&D&9&0&F&4Crema di asparagi'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_LEMON_SHAVED_ICE:
+    name: '&x&1&D&9&0&F&4Ghiaccio tritato al limone'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_BANANA_SHAVED_ICE:
+    name: '&x&1&D&9&0&F&4Banana Shaved Ice'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_SORGHUM_FLOUR:
+    name: '&x&F&F&F&F&5&5Sorghum Flour'
+  GN_PERFECT_ROAST_BEEF_SANDWICH:
+    name: '&x&C&9&1&D&F&4Roast Beef Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità II (113s) &8(75.0%)'
+  GN_HARD_BOILED_EGG:
+    name: '&x&F&F&F&F&5&5Hard-boiled Egg'
+  GN_PERFECT_POPPED_SORGHUM:
+    name: '&x&C&9&1&D&F&4Popped Sorghum'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_GUARDIAN_FIN_SOUP:
+    name: '&x&1&D&9&0&F&4Guardian Fin Soup'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +50'
+  GN_DOUBLE_CHOCOLATE_MUFFIN:
+    name: '&x&1&D&9&0&F&4Double Chocolate Muffin'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_DOUBLE_CHOCOLATE_MUFFIN:
+    name: '&x&C&9&1&D&F&4Double Chocolate Muffin'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_MARMALADE:
+    name: '&x&F&F&F&F&5&5Marmalade'
+  GN_PERFECT_RICE_WINE:
+    name: '&x&C&9&1&D&F&4Rice Wine'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea IV (75s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_CHICKEN_POTSTICKERS:
+    name: '&x&1&D&9&0&F&4Chicken Potstickers'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_PERFECT_RED_BEAN_BUNS:
+    name: '&x&C&9&1&D&F&4Red Bean Buns'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_SPLIT_PEA_SOUP:
+    name: '&x&1&D&9&0&F&4Split Pea Soup'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Nausea'
+  GN_GLOWING_SQUID_INK_PASTA:
+    name: '&x&1&D&9&0&F&4Luminescenza Squid Ink Pasta'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Luminescenza I (120s)'
+  GN_TURMERIC_POWDER:
+    name: '&x&F&F&F&F&5&5Turmeric Powder'
+  GN_PERFECT_RAISIN_MUFFIN:
+    name: '&x&C&9&1&D&F&4Raisin Muffin'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_RAISIN_MUFFIN:
+    name: '&x&1&D&9&0&F&4Raisin Muffin'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_FRIED_EGG:
+    name: '&x&F&F&F&F&5&5Fried Egg'
+  GN_PERFECT_BEEF_STEW:
+    name: '&x&C&9&1&D&F&4Beef Stew'
+    lore:
+    - '&7&o+&b&o8.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +210'
+  GN_PERFECT_CHICKEN_AND_QUINOA_SOUP:
+    name: '&x&C&9&1&D&F&4Chicken and Quinoa Soup'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_STRAWBERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Strawberry Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_SOY_SAUCE:
+    name: '&x&F&F&F&F&5&5Soy Sauce'
+  GN_MASHED_TURNIPS:
+    name: '&x&1&D&9&0&F&4Mashed Turnips'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_SHAVED_ICE:
+    name: '&x&1&D&9&0&F&4Shaved Ice'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_POTATO_CHOWDER:
+    name: '&x&1&D&9&0&F&4Potato Chowder'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_HONEYDEW_MELON_BUBBLE_TEA:
+    name: '&x&C&9&1&D&F&4Honeydew Melon Bubble Tea'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_VODKA:
+    name: '&x&1&D&9&0&F&4Vodka'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea V (120s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_PERFECT_PINEAPPLE_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Pineapple Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_ENCHANTED_GLISTERING_MELON_SLICE:
+    name: '&x&C&9&1&D&F&4Enchanted Glistering Melon Slice'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Wither'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &9Rigenerazione II (150s)'
+  GN_TUNA_CASSEROLE:
+    name: '&x&1&D&9&0&F&4Tuna Casserole'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza II (20s)'
+  GN_PERFECT_CARROT_SOUP:
+    name: '&x&C&9&1&D&F&4Carrot Soup'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla gli effetti Cecità'
+  GN_BAKED_BEANS_AND_TOAST:
+    name: '&x&1&D&9&0&F&4Baked Beans and Toast'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza I (90s) &8(50.0%)'
+  GN_PERFECT_LEMON_TART:
+    name: '&x&C&9&1&D&F&4Lemon Tart'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità II (150s)'
+  GN_PERFECT_BEER:
+    name: '&x&C&9&1&D&F&4Birra'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea IV (75s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_PERFECT_RED_BEAN_GLUTINOUS_RICE_BALLS:
+    name: '&x&C&9&1&D&F&4Red Bean Glutinous Rice Balls'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_BREAKFAST_SANDWICH:
+    name: '&x&1&D&9&0&F&4Breakfast Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione I (90s) &8(50.0%)'
+  GN_BUTTER_CHICKEN_WITH_NAAN_BREAD:
+    name: '&x&1&D&9&0&F&4Butter Chicken with Pane Indiano'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza II (30s)'
+  GN_PERFECT_VEGETABLE_UDON:
+    name: '&x&C&9&1&D&F&4Vegetable Udon'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_STIR_FRY_NOODLES:
+    name: '&x&1&D&9&0&F&4Stir-fry Noodles'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_GREEK_SALAD:
+    name: '&x&C&9&1&D&F&4Greek Salad'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_CARAMEL_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Caramel Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_CAESAR_SALAD:
+    name: '&x&C&9&1&D&F&4Caesar Salad'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_BBQ_MUTTON:
+    name: '&x&1&D&9&0&F&4BBQ Mutton'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_MASHED_POTATOES:
+    name: '&x&C&9&1&D&F&4Mashed Potatoes'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_RED_WINE:
+    name: '&x&1&D&9&0&F&4Red Wine'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea III (60s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_SCRAMBLED_EGGS:
+    name: '&x&F&F&F&F&5&5Scrambled Eggs'
+  GN_PERFECT_MUSHROOM_RAVIOLI:
+    name: '&x&C&9&1&D&F&4Mushroom Ravioli'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_PERFECT_RICE_BALL:
+    name: '&x&C&9&1&D&F&4Rice Ball'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PIEROGIES:
+    name: '&x&1&D&9&0&F&4Pierogies'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_DOUGH:
+    name: '&x&F&F&F&F&5&5Dough'
+  GN_PERFECT_RED_WINE:
+    name: '&x&C&9&1&D&F&4Red Wine'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea IV (75s)'
+    - '&8‑ &9Forza II (57s)'
+    - '&8‑ &9Resistenza II (57s)'
+  GN_BLUEBERRY_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Blueberry Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_CUSTARD_BUNS:
+    name: '&x&C&9&1&D&F&4Panino alla crema pasticcera'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PEACH_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Peach Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_ROAST_BEEF_SANDWICH:
+    name: '&x&1&D&9&0&F&4Roast Beef Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Velocità I (90s) &8(50.0%)'
+  GN_PINEAPPLE_ICE_CREAM:
+    name: '&x&1&D&9&0&F&4Pineapple Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_APPLE_CIDER:
+    name: '&x&1&D&9&0&F&4Apple Cider'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea III (60s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_COOKED_RICE:
+    name: '&x&F&F&F&F&5&5Cooked Rice'
+  GN_CARAMEL:
+    name: '&x&F&F&F&F&5&5Caramel'
+  GN_PERFECT_CARROT_MUFFIN:
+    name: '&x&C&9&1&D&F&4Carrot Muffin'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_KAPPA_ROLL:
+    name: '&x&1&D&9&0&F&4Kappa Roll'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_BBQ_PORK:
+    name: '&x&C&9&1&D&F&4BBQ Pork'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+  GN_PBJ_SANDWICH:
+    name: '&x&1&D&9&0&F&4PB&J Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza I (90s) &8(50.0%)'
+  GN_PERFECT_BUTTER_CHICKEN_WITH_NAAN_BREAD:
+    name: '&x&C&9&1&D&F&4Butter Chicken with Pane Indiano'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Forza III (38s)'
+  GN_PERFECT_RED_BEAN_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Red Bean Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_CREAM_OF_CAULIFLOWER_SOUP:
+    name: '&x&C&9&1&D&F&4Cream of Cauliflower Soup'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +3'
+  GN_PERFECT_FISH_AND_CHIPS:
+    name: '&x&C&9&1&D&F&4Fish and Chips'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_TEMPURA_BROCCOLI:
+    name: '&x&1&D&9&0&F&4Tempura Broccoli'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_BARLEY_PORRIDGE:
+    name: '&x&1&D&9&0&F&4Barley Porridge'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_CANTALOUPE_BUBBLE_TEA:
+    name: '&x&C&9&1&D&F&4Cantaloupe Bubble Tea'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_FRIED_SHRIMP:
+    name: '&x&1&D&9&0&F&4Fried Shrimp'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_PERFECT_TUNA_CASSEROLE:
+    name: '&x&C&9&1&D&F&4Tuna Casserole'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza III (25s)'
+  GN_PERFECT_PAN_SEARED_SALMON:
+    name: '&x&C&9&1&D&F&4Pan-seared Salmon'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_BEEF_POTSTICKERS:
+    name: '&x&C&9&1&D&F&4Beef Potstickers'
+    lore:
+    - '&7&o+&b&o5.5 &7&oFame'
+  GN_TEMPURA_SHRIMP:
+    name: '&x&1&D&9&0&F&4Tempura Shrimp'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Assorbimento I (30s)'
+  GN_PERFECT_CANDY_APPLE:
+    name: '&x&C&9&1&D&F&4Candy Apple'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_HONEY_DIP_DONUT:
+    name: '&x&1&D&9&0&F&4Honey Dip Donut'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_BEEF_STEW:
+    name: '&x&1&D&9&0&F&4Beef Stew'
+    lore:
+    - '&7&o+&b&o8.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +140'
+  GN_PERFECT_BLUEBERRY_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Blueberry Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_MUSHROOM_BARLEY_SOUP:
+    name: '&x&C&9&1&D&F&4Mushroom Barley Soup'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &6Calore +105'
+  GN_CREAM_OF_CAULIFLOWER_SOUP:
+    name: '&x&1&D&9&0&F&4Cream of Cauliflower Soup'
+    lore:
+    - '&7&o+&b&o4.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_COCONUT_ICE_CREAM:
+    name: '&x&C&9&1&D&F&4Coconut Ice Cream'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+  GN_PERFECT_POTATO_CHOWDER:
+    name: '&x&C&9&1&D&F&4Potato Chowder'
+    lore:
+    - '&7&o+&b&o5.0 &7&oFame'
+  GN_PERFECT_FIDDLEHEAD_SALAD:
+    name: '&x&C&9&1&D&F&4Fiddlehead Salad'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+    - '&8‑ &9Assorbimento II (38s)'
+  GN_RICE_BALL:
+    name: '&x&1&D&9&0&F&4Rice Ball'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_BUBBLE_MILK_TEA:
+    name: '&x&C&9&1&D&F&4Bubble Milk Tea'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_AVOCADO_TOAST:
+    name: '&x&1&D&9&0&F&4Avocado Toast'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza I (90s) &8(50.0%)'
+  GN_PERFECT_PEANUT_GLUTINOUS_RICE_BALLS:
+    name: '&x&C&9&1&D&F&4Peanut Glutinous Rice Balls'
+    lore:
+    - '&7&o+&b&o3.5 &7&oFame'
+  GN_PERFECT_CHICKEN_RAVIOLI:
+    name: '&x&C&9&1&D&F&4Chicken Ravioli'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Debolezza'
+  GN_PERFECT_AVOCADO_TOAST:
+    name: '&x&C&9&1&D&F&4Avocado Toast'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Resistenza II (113s) &8(75.0%)'
+  GN_PERFECT_V7:
+    name: '&x&C&9&1&D&F&4V7'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione II (25s)'
+  GN_RICE_WINE:
+    name: '&x&1&D&9&0&F&4Rice Wine'
+    lore:
+    - '&7&o+&b&o1.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &cNausea III (60s)'
+    - '&8‑ &9Forza I (45s)'
+    - '&8‑ &9Resistenza I (45s)'
+  GN_PERFECT_CHICKEN_SOUP:
+    name: '&x&C&9&1&D&F&4Chicken Soup'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &bAnnulla tutti gli effetti Veleno'
+    - '&8‑ &bAnnulla tutti gli effetti Fame'
+  GN_PERFECT_BEEF_AND_LENTIL_SOUP:
+    name: '&x&C&9&1&D&F&4Beef and Lentil Soup'
+    lore:
+    - '&7&o+&b&o7.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Saturazione III (13s)'
+  GN_MASHED_POTATOES:
+    name: '&x&1&D&9&0&F&4Mashed Potatoes'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
+  GN_HAM_SANDWICH:
+    name: '&x&1&D&9&0&F&4Ham Panino'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &9Rigenerazione I (30s)'
+  GN_PERFECT_CHORUS_PIE:
+    name: '&x&C&9&1&D&F&4Chorus Pie'
+    lore:
+    - '&7&o+&b&o4.0 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &7Teleports you somewhere within 7 blocks away'
+  GN_PERFECT_TAIYAKI:
+    name: '&x&C&9&1&D&F&4Taiyaki'
+    lore:
+    - '&7&o+&b&o3.0 &7&oFame'
+  GN_STRAWBERRY_SHAVED_ICE:
+    name: '&x&1&D&9&0&F&4Strawberry Shaved Ice'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_PERFECT_LEMON_SHAVED_ICE:
+    name: '&x&C&9&1&D&F&4Lemon Shaved Ice'
+    lore:
+    - '&7&o+&b&o1.0 &7&oFame'
+  GN_BEEF_UDON:
+    name: '&x&1&D&9&0&F&4Beef Udon'
+    lore:
+    - '&7&o+&b&o6.5 &7&oFame'
+    - ''
+    - '&7Quando consumato/a:'
+    - '&8‑ &aSalute +2'
+  GN_PERFECT_CRANBERRY_MUFFIN:
+    name: '&x&C&9&1&D&F&4Muffin al mirtillo rosso'
+    lore:
+    - '&7&o+&b&o2.0 &7&oFame'
+  GN_PERFECT_TURKEY_ROAST:
+    name: '&x&C&9&1&D&F&4Turkey Roast'
+    lore:
+    - '&7&o+&b&o6.0 &7&oFame'

@@ -1,0 +1,40 @@
+name: Gastronomicon
+translations:
+  GN_CULINARY_WORKBENCH:
+    name: '&x&0&0&A&A&A&ABanco da Cucina'
+  GN_FERMENTER:
+    name: '&x&0&0&A&A&A&AFermentatore'
+    lore:
+    - ''
+    - '&eShift + Click Destro &x&A&A&A&A&A&Acon un secchio'
+    - '&x&A&A&A&A&A&Ao una bottiglia d''acqua per refillare'
+    - '&x&A&A&A&A&A&A'
+    - '&8⇨ &9🪣 &72000 mB Buffer'
+    - '&8⇨ &9🪣 &7125 mB/Craft'
+  GN_MILL:
+    name: '&x&0&0&A&A&A&AMulino per cereali'
+  GN_MULTI_STOVE:
+    name: '&x&0&0&A&A&A&AMulti-Stufa'
+    lore:
+    - ''
+    - '&8⇨ &e⚡ &71024 J Buffer'
+    - '&8⇨ &e⚡ &764 J/Craft'
+  GN_LARGE_FERMENTER:
+    name: '&x&0&0&A&A&A&AFermentatore Grande'
+    lore:
+    - ''
+    - '&eShift + Click Destro &x&A&A&A&A&A&Acon un secchio'
+    - '&x&A&A&A&A&A&Ao una bottiglia d''acqua per refillare'
+    - '&x&A&A&A&A&A&A'
+    - '&8⇨ &9🪣 &716000 mB Buffer'
+    - '&8⇨ &9🪣 &7125 mB/Craft'
+  GN_CHEF_ANDROID_TRAINER:
+    name: '&x&A&A&A&A&F&FChef Automa Apprendista'
+  GN_REFRIDGERATOR:
+    name: '&x&0&0&A&A&A&AFrigorifero'
+    lore:
+    - ''
+    - '&8⇨ &e⚡ &71024 J Buffer'
+    - '&8⇨ &e⚡ &764 J/Craft'
+  GN_CHEF_ANDROID:
+    name: '&x&A&A&A&A&F&FChef Automa'

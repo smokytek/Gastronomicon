@@ -2,7 +2,7 @@ name: Gastronomicon
 
 author: SchnTgaiSpock
 
-description: A Slimefun addon that adds even more food to the game. Works best with ExoticGarden
+description: Fork italiana autonoma di Gastronomicon per Slimefun
 
 main: io.github.schntgaispock.gastronomicon.Gastronomicon
 
@@ -27,7 +27,7 @@ commands:
   gastronomicon:
     description: /gastronomicon
     aliases: [gastro, gn]
-    usage: Press [tab] for usage hints
+    usage: Premi [tab] per visualizzare i suggerimenti
 
 permissions:
   gastronomicon:
