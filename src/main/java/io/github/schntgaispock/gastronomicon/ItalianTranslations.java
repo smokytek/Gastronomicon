@@ -6,6 +6,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -16,7 +18,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/** Applica la localizzazione italiana incorporata, senza plugin esterni. */
+/** Applica la localizzazione italiana dai file YAML modificabili del plugin. */
 final class ItalianTranslations {
 
     private static final List<String> FILES = Arrays.asList(
@@ -25,25 +27,26 @@ final class ItalianTranslations {
 
     private ItalianTranslations() {}
 
-    static void apply() {
+    static void apply(Gastronomicon plugin) {
         Map<String, Translation> translations = new HashMap<>();
-        for (String file : FILES) load(file, translations);
+        for (String file : FILES) load(plugin, file, translations);
 
         int applied = 0;
         for (Map.Entry<String, Translation> entry : translations.entrySet()) {
             SlimefunItem slimefunItem = SlimefunItem.getById(entry.getKey());
             if (slimefunItem != null && translate(slimefunItem.getItem(), entry.getValue())) applied++;
         }
-        Gastronomicon.info("Traduzione italiana incorporata: " + applied + " oggetti tradotti.");
+        Gastronomicon.info("Traduzione italiana configurabile: " + applied + " oggetti tradotti.");
     }
 
-    private static void load(String file, Map<String, Translation> translations) {
-        String path = "/translations/it/Gastronomicon/" + file;
-        try (InputStream stream = ItalianTranslations.class.getResourceAsStream(path)) {
-            if (stream == null) {
-                Gastronomicon.warn("File di traduzione mancante: " + path);
-                return;
-            }
+    private static void load(Gastronomicon plugin, String file, Map<String, Translation> translations) {
+        String resourcePath = "translations/it/Gastronomicon/" + file;
+        File externalFile = new File(plugin.getDataFolder(), resourcePath);
+        if (!externalFile.exists()) {
+            plugin.saveResource(resourcePath, false);
+        }
+
+        try (InputStream stream = new FileInputStream(externalFile)) {
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(stream, StandardCharsets.UTF_8))) {
                 Translation translation = null;
                 String line;
@@ -60,7 +63,7 @@ final class ItalianTranslations {
                 }
             }
         } catch (IOException ex) {
-            Gastronomicon.error("Impossibile leggere la traduzione " + file + ": " + ex.getMessage());
+            Gastronomicon.error("Impossibile leggere la traduzione configurabile " + externalFile + ": " + ex.getMessage());
         }
     }
 

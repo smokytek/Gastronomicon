@@ -1,8 +1,10 @@
 # Gastronomicon Italiano
 
-Fork italiana autonoma di Gastronomicon. Nomi e descrizioni degli oggetti sono
-incorporati nel file JAR: **SlimefunTranslation non è necessario**. Gli ID
-Slimefun originali restano invariati per preservare mondi e ricette esistenti.
+Fork italiana autonoma di Gastronomicon. **SlimefunTranslation non è
+necessario**. Al primo avvio i file YAML modificabili vengono creati in
+`plugins/Gastronomicon/translations/it/Gastronomicon/`: puoi cambiare i campi
+`name` e `lore`, quindi riavviare il server. Gli ID Slimefun originali restano
+invariati per preservare mondi e ricette esistenti.
 
 ## Installazione
 

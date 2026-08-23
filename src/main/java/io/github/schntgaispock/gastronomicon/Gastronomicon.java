@@ -62,7 +62,7 @@ public class Gastronomicon extends AbstractAddon {
             new SimplePie("exoticgardenInstalled", () -> Boolean.toString(isPluginEnabled("ExoticGarden"))));
 
         ItemSetup.setup();
-        ItalianTranslations.apply();
+        ItalianTranslations.apply(this);
         ResearchSetup.setup();
         ListenerSetup.setup();
         CommandSetup.setup();
