@@ -614,7 +614,7 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &9Forza II (38s)'
   GN_PERFECT_CHICKEN_UDON:
-    name: '&x&C&9&1&D&F&4Pollo Udon'
+    name: '&x&C&9&1&D&F&4Udon al pollo'
     lore:
     - '&7&o+&b&o5.5 &7&oFame'
     - ''
@@ -934,7 +934,7 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &6Calore +140'
   GN_PERFECT_BEEF_UDON:
-    name: '&x&C&9&1&D&F&4Manzo Udon'
+    name: '&x&C&9&1&D&F&4Udon al manzo'
     lore:
     - '&7&o+&b&o6.5 &7&oFame'
     - ''
@@ -1029,43 +1029,43 @@ translations:
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_BANANA_SHAVED_ICE:
-    name: '&x&1&D&9&0&F&4Banana Shaved Ice'
+    name: '&x&1&D&9&0&F&4Banana Granita'
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_SORGHUM_FLOUR:
-    name: '&x&F&F&F&F&5&5Sorghum Flour'
+    name: '&x&F&F&F&F&5&5Farina di sorgo'
   GN_PERFECT_ROAST_BEEF_SANDWICH:
-    name: '&x&C&9&1&D&F&4Roast Beef Panino'
+    name: '&x&C&9&1&D&F&4Panino al roast beef'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Velocità II (113s) &8(75.0%)'
   GN_HARD_BOILED_EGG:
-    name: '&x&F&F&F&F&5&5Hard-boiled Egg'
+    name: '&x&F&F&F&F&5&5Uovo sodo'
   GN_PERFECT_POPPED_SORGHUM:
     name: '&x&C&9&1&D&F&4Popped Sorghum'
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_GUARDIAN_FIN_SOUP:
-    name: '&x&1&D&9&0&F&4Guardian Fin Soup'
+    name: '&x&1&D&9&0&F&4Zuppa di pinna di guardiano'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &6Calore +50'
   GN_DOUBLE_CHOCOLATE_MUFFIN:
-    name: '&x&1&D&9&0&F&4Double Chocolate Muffin'
+    name: '&x&1&D&9&0&F&4Muffin al doppio cioccolato'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_PERFECT_DOUBLE_CHOCOLATE_MUFFIN:
-    name: '&x&C&9&1&D&F&4Double Chocolate Muffin'
+    name: '&x&C&9&1&D&F&4Muffin al doppio cioccolato'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_MARMALADE:
-    name: '&x&F&F&F&F&5&5Marmalade'
+    name: '&x&F&F&F&F&5&5Marmellata di agrumi'
   GN_PERFECT_RICE_WINE:
-    name: '&x&C&9&1&D&F&4Rice Wine'
+    name: '&x&C&9&1&D&F&4Vino di riso'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
@@ -1074,7 +1074,7 @@ translations:
     - '&8‑ &9Forza II (57s)'
     - '&8‑ &9Resistenza II (57s)'
   GN_CHICKEN_POTSTICKERS:
-    name: '&x&1&D&9&0&F&4Chicken Potstickers'
+    name: '&x&1&D&9&0&F&4Ravioli alla piastra con pollo'
     lore:
     - '&7&o+&b&o4.5 &7&oFame'
   GN_PERFECT_RED_BEAN_BUNS:
@@ -1082,7 +1082,7 @@ translations:
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_SPLIT_PEA_SOUP:
-    name: '&x&1&D&9&0&F&4Split Pea Soup'
+    name: '&x&1&D&9&0&F&4Zuppa di piselli spezzati'
     lore:
     - '&7&o+&b&o5.0 &7&oFame'
     - ''
@@ -1096,26 +1096,26 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &9Luminescenza I (120s)'
   GN_TURMERIC_POWDER:
-    name: '&x&F&F&F&F&5&5Turmeric Powder'
+    name: '&x&F&F&F&F&5&5Curcuma in polvere'
   GN_PERFECT_RAISIN_MUFFIN:
-    name: '&x&C&9&1&D&F&4Raisin Muffin'
+    name: '&x&C&9&1&D&F&4Muffin con uvetta'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_RAISIN_MUFFIN:
-    name: '&x&1&D&9&0&F&4Raisin Muffin'
+    name: '&x&1&D&9&0&F&4Muffin con uvetta'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_FRIED_EGG:
-    name: '&x&F&F&F&F&5&5Fried Egg'
+    name: '&x&F&F&F&F&5&5Uovo fritto'
   GN_PERFECT_BEEF_STEW:
-    name: '&x&C&9&1&D&F&4Beef Stew'
+    name: '&x&C&9&1&D&F&4Stufato di manzo'
     lore:
     - '&7&o+&b&o8.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &6Calore +210'
   GN_PERFECT_CHICKEN_AND_QUINOA_SOUP:
-    name: '&x&C&9&1&D&F&4Chicken and Quinoa Soup'
+    name: '&x&C&9&1&D&F&4Zuppa di pollo e quinoa'
     lore:
     - '&7&o+&b&o7.0 &7&oFame'
     - ''
@@ -1123,21 +1123,21 @@ translations:
     - '&8‑ &bAnnulla tutti gli effetti Veleno'
     - '&8‑ &bAnnulla tutti gli effetti Fame'
   GN_STRAWBERRY_ICE_CREAM:
-    name: '&x&1&D&9&0&F&4Strawberry Ice Cream'
+    name: '&x&1&D&9&0&F&4Gelato alla fragola'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_SOY_SAUCE:
-    name: '&x&F&F&F&F&5&5Soy Sauce'
+    name: '&x&F&F&F&F&5&5Salsa di soia'
   GN_MASHED_TURNIPS:
-    name: '&x&1&D&9&0&F&4Mashed Turnips'
+    name: '&x&1&D&9&0&F&4Pure di rape'
     lore:
     - '&7&o+&b&o2.5 &7&oFame'
   GN_SHAVED_ICE:
-    name: '&x&1&D&9&0&F&4Shaved Ice'
+    name: '&x&1&D&9&0&F&4Granita'
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_POTATO_CHOWDER:
-    name: '&x&1&D&9&0&F&4Potato Chowder'
+    name: '&x&1&D&9&0&F&4Zuppa cremosa di patate'
     lore:
     - '&7&o+&b&o5.0 &7&oFame'
   GN_PERFECT_HONEYDEW_MELON_BUBBLE_TEA:
@@ -1154,7 +1154,7 @@ translations:
     - '&8‑ &9Forza I (45s)'
     - '&8‑ &9Resistenza I (45s)'
   GN_PERFECT_PINEAPPLE_ICE_CREAM:
-    name: '&x&C&9&1&D&F&4Pineapple Ice Cream'
+    name: '&x&C&9&1&D&F&4Gelato all ananas'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_ENCHANTED_GLISTERING_MELON_SLICE:
@@ -1167,21 +1167,21 @@ translations:
     - '&8‑ &bAnnulla tutti gli effetti Veleno'
     - '&8‑ &9Rigenerazione II (150s)'
   GN_TUNA_CASSEROLE:
-    name: '&x&1&D&9&0&F&4Tuna Casserole'
+    name: '&x&1&D&9&0&F&4Sformato di tonno'
     lore:
     - '&7&o+&b&o7.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Resistenza II (20s)'
   GN_PERFECT_CARROT_SOUP:
-    name: '&x&C&9&1&D&F&4Carrot Soup'
+    name: '&x&C&9&1&D&F&4Zuppa di carote'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &bAnnulla gli effetti Cecità'
   GN_BAKED_BEANS_AND_TOAST:
-    name: '&x&1&D&9&0&F&4Baked Beans and Toast'
+    name: '&x&1&D&9&0&F&4Fagioli al forno con pane tostato'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
@@ -1204,32 +1204,32 @@ translations:
     - '&8‑ &9Forza II (57s)'
     - '&8‑ &9Resistenza II (57s)'
   GN_PERFECT_RED_BEAN_GLUTINOUS_RICE_BALLS:
-    name: '&x&C&9&1&D&F&4Red Bean Glutinous Rice Balls'
+    name: '&x&C&9&1&D&F&4Red Bean Glutinous Polpetta di risos'
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_BREAKFAST_SANDWICH:
-    name: '&x&1&D&9&0&F&4Breakfast Panino'
+    name: '&x&1&D&9&0&F&4Panino da colazione'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Rigenerazione I (90s) &8(50.0%)'
   GN_BUTTER_CHICKEN_WITH_NAAN_BREAD:
-    name: '&x&1&D&9&0&F&4Butter Chicken with Pane Indiano'
+    name: '&x&1&D&9&0&F&4Pollo al burro con pane naan'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Forza II (30s)'
   GN_PERFECT_VEGETABLE_UDON:
-    name: '&x&C&9&1&D&F&4Vegetable Udon'
+    name: '&x&C&9&1&D&F&4Udon alle verdure'
     lore:
     - '&7&o+&b&o5.5 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &aSalute +3'
   GN_STIR_FRY_NOODLES:
-    name: '&x&1&D&9&0&F&4Stir-fry Noodles'
+    name: '&x&1&D&9&0&F&4Noodles saltati in padella'
     lore:
     - '&7&o+&b&o5.0 &7&oFame'
   GN_PERFECT_GREEK_SALAD:
@@ -1241,7 +1241,7 @@ translations:
     - '&8‑ &aSalute +2'
     - '&8‑ &9Assorbimento II (38s)'
   GN_CARAMEL_ICE_CREAM:
-    name: '&x&1&D&9&0&F&4Caramel Ice Cream'
+    name: '&x&1&D&9&0&F&4Gelato al caramello'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_CAESAR_SALAD:
@@ -1257,11 +1257,11 @@ translations:
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_PERFECT_MASHED_POTATOES:
-    name: '&x&C&9&1&D&F&4Mashed Potatoes'
+    name: '&x&C&9&1&D&F&4Pure di patate'
     lore:
     - '&7&o+&b&o2.5 &7&oFame'
   GN_RED_WINE:
-    name: '&x&1&D&9&0&F&4Red Wine'
+    name: '&x&1&D&9&0&F&4Vino rosso'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
@@ -1270,7 +1270,7 @@ translations:
     - '&8‑ &9Forza I (45s)'
     - '&8‑ &9Resistenza I (45s)'
   GN_SCRAMBLED_EGGS:
-    name: '&x&F&F&F&F&5&5Scrambled Eggs'
+    name: '&x&F&F&F&F&5&5Uova strapazzate'
   GN_PERFECT_MUSHROOM_RAVIOLI:
     name: '&x&C&9&1&D&F&4Mushroom Ravioli'
     lore:
@@ -1279,17 +1279,17 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &bAnnulla tutti gli effetti Debolezza'
   GN_PERFECT_RICE_BALL:
-    name: '&x&C&9&1&D&F&4Rice Ball'
+    name: '&x&C&9&1&D&F&4Polpetta di riso'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_PIEROGIES:
-    name: '&x&1&D&9&0&F&4Pierogies'
+    name: '&x&1&D&9&0&F&4Pierogi'
     lore:
     - '&7&o+&b&o4.5 &7&oFame'
   GN_DOUGH:
-    name: '&x&F&F&F&F&5&5Dough'
+    name: '&x&F&F&F&F&5&5Impasto'
   GN_PERFECT_RED_WINE:
-    name: '&x&C&9&1&D&F&4Red Wine'
+    name: '&x&C&9&1&D&F&4Vino rosso'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
@@ -1298,7 +1298,7 @@ translations:
     - '&8‑ &9Forza II (57s)'
     - '&8‑ &9Resistenza II (57s)'
   GN_BLUEBERRY_ICE_CREAM:
-    name: '&x&1&D&9&0&F&4Blueberry Ice Cream'
+    name: '&x&1&D&9&0&F&4Gelato al mirtillo'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_CUSTARD_BUNS:
@@ -1306,22 +1306,22 @@ translations:
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_PEACH_ICE_CREAM:
-    name: '&x&1&D&9&0&F&4Peach Ice Cream'
+    name: '&x&1&D&9&0&F&4Gelato alla pesca'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_ROAST_BEEF_SANDWICH:
-    name: '&x&1&D&9&0&F&4Roast Beef Panino'
+    name: '&x&1&D&9&0&F&4Panino al roast beef'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Velocità I (90s) &8(50.0%)'
   GN_PINEAPPLE_ICE_CREAM:
-    name: '&x&1&D&9&0&F&4Pineapple Ice Cream'
+    name: '&x&1&D&9&0&F&4Gelato all ananas'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_APPLE_CIDER:
-    name: '&x&1&D&9&0&F&4Apple Cider'
+    name: '&x&1&D&9&0&F&4Sidro di mele'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
@@ -1330,11 +1330,11 @@ translations:
     - '&8‑ &9Forza I (45s)'
     - '&8‑ &9Resistenza I (45s)'
   GN_COOKED_RICE:
-    name: '&x&F&F&F&F&5&5Cooked Rice'
+    name: '&x&F&F&F&F&5&5Riso cotto'
   GN_CARAMEL:
-    name: '&x&F&F&F&F&5&5Caramel'
+    name: '&x&F&F&F&F&5&5Caramello'
   GN_PERFECT_CARROT_MUFFIN:
-    name: '&x&C&9&1&D&F&4Carrot Muffin'
+    name: '&x&C&9&1&D&F&4Muffin alla carota'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_KAPPA_ROLL:
@@ -1353,18 +1353,18 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &9Forza I (90s) &8(50.0%)'
   GN_PERFECT_BUTTER_CHICKEN_WITH_NAAN_BREAD:
-    name: '&x&C&9&1&D&F&4Butter Chicken with Pane Indiano'
+    name: '&x&C&9&1&D&F&4Pollo al burro con pane naan'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Forza III (38s)'
   GN_PERFECT_RED_BEAN_ICE_CREAM:
-    name: '&x&C&9&1&D&F&4Red Bean Ice Cream'
+    name: '&x&C&9&1&D&F&4Gelato ai fagioli rossi'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_CREAM_OF_CAULIFLOWER_SOUP:
-    name: '&x&C&9&1&D&F&4Cream of Cauliflower Soup'
+    name: '&x&C&9&1&D&F&4Vellutata di cavolfiore'
     lore:
     - '&7&o+&b&o4.5 &7&oFame'
     - ''
@@ -1382,7 +1382,7 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &9Assorbimento I (30s)'
   GN_BARLEY_PORRIDGE:
-    name: '&x&1&D&9&0&F&4Barley Porridge'
+    name: '&x&1&D&9&0&F&4Porridge di orzo'
     lore:
     - '&7&o+&b&o5.0 &7&oFame'
     - ''
@@ -1394,14 +1394,14 @@ translations:
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_FRIED_SHRIMP:
-    name: '&x&1&D&9&0&F&4Fried Shrimp'
+    name: '&x&1&D&9&0&F&4Gamberetti fritti'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Assorbimento I (30s)'
   GN_PERFECT_TUNA_CASSEROLE:
-    name: '&x&C&9&1&D&F&4Tuna Casserole'
+    name: '&x&C&9&1&D&F&4Sformato di tonno'
     lore:
     - '&7&o+&b&o7.0 &7&oFame'
     - ''
@@ -1412,11 +1412,11 @@ translations:
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_PERFECT_BEEF_POTSTICKERS:
-    name: '&x&C&9&1&D&F&4Beef Potstickers'
+    name: '&x&C&9&1&D&F&4Ravioli alla piastra con manzo'
     lore:
     - '&7&o+&b&o5.5 &7&oFame'
   GN_TEMPURA_SHRIMP:
-    name: '&x&1&D&9&0&F&4Tempura Shrimp'
+    name: '&x&1&D&9&0&F&4Gamberetti in tempura'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
     - ''
@@ -1427,40 +1427,40 @@ translations:
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_HONEY_DIP_DONUT:
-    name: '&x&1&D&9&0&F&4Honey Dip Donut'
+    name: '&x&1&D&9&0&F&4Ciambella glassata al miele'
     lore:
     - '&7&o+&b&o3.0 &7&oFame'
   GN_BEEF_STEW:
-    name: '&x&1&D&9&0&F&4Beef Stew'
+    name: '&x&1&D&9&0&F&4Stufato di manzo'
     lore:
     - '&7&o+&b&o8.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &6Calore +140'
   GN_PERFECT_BLUEBERRY_ICE_CREAM:
-    name: '&x&C&9&1&D&F&4Blueberry Ice Cream'
+    name: '&x&C&9&1&D&F&4Gelato al mirtillo'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_MUSHROOM_BARLEY_SOUP:
-    name: '&x&C&9&1&D&F&4Mushroom Barley Soup'
+    name: '&x&C&9&1&D&F&4Zuppa di funghi e orzo'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &6Calore +105'
   GN_CREAM_OF_CAULIFLOWER_SOUP:
-    name: '&x&1&D&9&0&F&4Cream of Cauliflower Soup'
+    name: '&x&1&D&9&0&F&4Vellutata di cavolfiore'
     lore:
     - '&7&o+&b&o4.5 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &aSalute +2'
   GN_PERFECT_COCONUT_ICE_CREAM:
-    name: '&x&C&9&1&D&F&4Coconut Ice Cream'
+    name: '&x&C&9&1&D&F&4Gelato al cocco'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
   GN_PERFECT_POTATO_CHOWDER:
-    name: '&x&C&9&1&D&F&4Potato Chowder'
+    name: '&x&C&9&1&D&F&4Zuppa cremosa di patate'
     lore:
     - '&7&o+&b&o5.0 &7&oFame'
   GN_PERFECT_FIDDLEHEAD_SALAD:
@@ -1472,7 +1472,7 @@ translations:
     - '&8‑ &aSalute +2'
     - '&8‑ &9Assorbimento II (38s)'
   GN_RICE_BALL:
-    name: '&x&1&D&9&0&F&4Rice Ball'
+    name: '&x&1&D&9&0&F&4Polpetta di riso'
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_PERFECT_BUBBLE_MILK_TEA:
@@ -1480,25 +1480,25 @@ translations:
     lore:
     - '&7&o+&b&o2.0 &7&oFame'
   GN_AVOCADO_TOAST:
-    name: '&x&1&D&9&0&F&4Avocado Toast'
+    name: '&x&1&D&9&0&F&4Pane tostato con avocado'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Resistenza I (90s) &8(50.0%)'
   GN_PERFECT_PEANUT_GLUTINOUS_RICE_BALLS:
-    name: '&x&C&9&1&D&F&4Peanut Glutinous Rice Balls'
+    name: '&x&C&9&1&D&F&4Peanut Glutinous Polpetta di risos'
     lore:
     - '&7&o+&b&o3.5 &7&oFame'
   GN_PERFECT_CHICKEN_RAVIOLI:
-    name: '&x&C&9&1&D&F&4Chicken Ravioli'
+    name: '&x&C&9&1&D&F&4Ravioli al pollo'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &bAnnulla tutti gli effetti Debolezza'
   GN_PERFECT_AVOCADO_TOAST:
-    name: '&x&C&9&1&D&F&4Avocado Toast'
+    name: '&x&C&9&1&D&F&4Pane tostato con avocado'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
@@ -1512,7 +1512,7 @@ translations:
     - '&7Quando consumato/a:'
     - '&8‑ &9Rigenerazione II (25s)'
   GN_RICE_WINE:
-    name: '&x&1&D&9&0&F&4Rice Wine'
+    name: '&x&1&D&9&0&F&4Vino di riso'
     lore:
     - '&7&o+&b&o1.5 &7&oFame'
     - ''
@@ -1521,7 +1521,7 @@ translations:
     - '&8‑ &9Forza I (45s)'
     - '&8‑ &9Resistenza I (45s)'
   GN_PERFECT_CHICKEN_SOUP:
-    name: '&x&C&9&1&D&F&4Chicken Soup'
+    name: '&x&C&9&1&D&F&4Zuppa di pollo'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
     - ''
@@ -1529,18 +1529,18 @@ translations:
     - '&8‑ &bAnnulla tutti gli effetti Veleno'
     - '&8‑ &bAnnulla tutti gli effetti Fame'
   GN_PERFECT_BEEF_AND_LENTIL_SOUP:
-    name: '&x&C&9&1&D&F&4Beef and Lentil Soup'
+    name: '&x&C&9&1&D&F&4Zuppa di manzo e lenticchie'
     lore:
     - '&7&o+&b&o7.0 &7&oFame'
     - ''
     - '&7Quando consumato/a:'
     - '&8‑ &9Saturazione III (13s)'
   GN_MASHED_POTATOES:
-    name: '&x&1&D&9&0&F&4Mashed Potatoes'
+    name: '&x&1&D&9&0&F&4Pure di patate'
     lore:
     - '&7&o+&b&o2.5 &7&oFame'
   GN_HAM_SANDWICH:
-    name: '&x&1&D&9&0&F&4Ham Panino'
+    name: '&x&1&D&9&0&F&4Panino al prosciutto'
     lore:
     - '&7&o+&b&o4.0 &7&oFame'
     - ''
@@ -1558,15 +1558,15 @@ translations:
     lore:
     - '&7&o+&b&o3.0 &7&oFame'
   GN_STRAWBERRY_SHAVED_ICE:
-    name: '&x&1&D&9&0&F&4Strawberry Shaved Ice'
+    name: '&x&1&D&9&0&F&4Strawberry Granita'
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_PERFECT_LEMON_SHAVED_ICE:
-    name: '&x&C&9&1&D&F&4Lemon Shaved Ice'
+    name: '&x&C&9&1&D&F&4Lemon Granita'
     lore:
     - '&7&o+&b&o1.0 &7&oFame'
   GN_BEEF_UDON:
-    name: '&x&1&D&9&0&F&4Beef Udon'
+    name: '&x&1&D&9&0&F&4Udon con manzo'
     lore:
     - '&7&o+&b&o6.5 &7&oFame'
     - ''
@@ -1580,3 +1580,6 @@ translations:
     name: '&x&C&9&1&D&F&4Turkey Roast'
     lore:
     - '&7&o+&b&o6.0 &7&oFame'
+
+
+

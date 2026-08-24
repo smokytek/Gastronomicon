@@ -28,11 +28,20 @@ public final class ItalianTranslations {
     private static final Field ITEM_STACK_LOCKED = field(SlimefunItemStack.class, "locked");
 
     private static final String[] FILES = {
-        "categories.yml", "basic_machines.yml", "electric_machines.yml",
-        "food.yml", "raw_ingredients.yml", "tools.yml"
+        "categories-v2.yml", "basic_machines-v2.yml", "electric_machines-v2.yml",
+        "food-v2.yml", "raw_ingredients-v2.yml", "tools-v2.yml"
     };
 
     private static final Map<String, Translation> TRANSLATIONS = new HashMap<>();
+
+    /*
+     * Il catalogo incorporato viene caricato durante l'inizializzazione della classe,
+     * prima che GastroStacks possa costruire anche un solo oggetto. Non dipende da
+     * JavaPlugin.onEnable() e quindi non esiste più una finestra in cui nascono copie inglesi.
+     */
+    static {
+        loadEmbeddedCatalog();
+    }
 
     private ItalianTranslations() {}
 
@@ -44,8 +53,8 @@ public final class ItalianTranslations {
     }
 
     static void load(Gastronomicon plugin) {
-        TRANSLATIONS.clear();
-        for (String file : FILES) loadFile(plugin, file);
+        // Il catalogo incorporato è la base certa; i file esterni sovrascrivono solo le voci scelte.
+        for (String file : FILES) loadExternalFile(plugin, file);
         Gastronomicon.info("Caricate " + TRANSLATIONS.size() + " traduzioni italiane configurabili.");
     }
 
@@ -85,22 +94,25 @@ public final class ItalianTranslations {
         Gastronomicon.info("Traduzione finale applicata a " + applied + " oggetti; mancanti: " + missing + '.');
     }
 
-    private static void loadFile(Gastronomicon plugin, String fileName) {
-        String resourcePath = "translations/it/Gastronomicon/" + fileName;
-        File file = new File(plugin.getDataFolder(), resourcePath);
-        if (!file.exists()) plugin.saveResource(resourcePath, false);
-
-        // Prima carica le chiavi incluse nel JAR, poi sovrascrive con il file esterno modificabile.
-        // In questo modo gli aggiornamenti aggiungono le nuove voci senza cancellare le modifiche locali.
-        try (InputStream stream = plugin.getResource(resourcePath)) {
-            if (stream != null) {
+    private static void loadEmbeddedCatalog() {
+        ClassLoader loader = ItalianTranslations.class.getClassLoader();
+        for (String fileName : FILES) {
+            String resourcePath = "translations/it/Gastronomicon/" + fileName;
+            try (InputStream stream = loader.getResourceAsStream(resourcePath)) {
+                if (stream == null) continue;
                 YamlConfiguration bundled = YamlConfiguration.loadConfiguration(
                     new InputStreamReader(stream, StandardCharsets.UTF_8));
                 loadSection(bundled.getConfigurationSection("translations"), fileName, false);
+            } catch (Exception ex) {
+                throw new ExceptionInInitializerError("Catalogo italiano non leggibile: " + fileName);
             }
-        } catch (Exception ex) {
-            Gastronomicon.warn("Impossibile leggere le traduzioni incluse in " + fileName);
         }
+    }
+
+    private static void loadExternalFile(Gastronomicon plugin, String fileName) {
+        String resourcePath = "translations/it/Gastronomicon/" + fileName;
+        File file = new File(plugin.getDataFolder(), resourcePath);
+        if (!file.exists()) plugin.saveResource(resourcePath, false);
 
         YamlConfiguration external = YamlConfiguration.loadConfiguration(file);
         loadSection(external.getConfigurationSection("translations"), fileName, true);

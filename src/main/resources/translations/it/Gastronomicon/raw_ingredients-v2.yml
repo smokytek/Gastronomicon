@@ -1,0 +1,182 @@
+name: Gastronomicon
+translations:
+  GN_SORGHUM_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di sorgo'
+  GN_SHRIMP:
+    name: '&x&F&F&F&F&5&5Gamberetti'
+  GN_SESAME_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di sesamo'
+  GN_RAW_TUNA:
+    name: '&x&F&F&F&F&5&5Tonno crudo'
+  GN_COOKED_TURKEY:
+    name: '&x&F&F&F&F&5&5Tacchino cotto'
+  GN_BARLEY_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di orzo'
+  GN_CUCUMBER:
+    name: '&x&F&F&F&F&5&5Cetriolo'
+  GN_COOKED_TUNA:
+    name: '&x&F&F&F&F&5&5Tonno cotto'
+  GN_BASIL_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di basilico'
+  GN_TURMERIC:
+    name: '&x&F&F&F&F&5&5Curcuma'
+  GN_HONEYDEW_MELON:
+    name: '&x&F&F&F&F&5&5Melone verde'
+  GN_LENTILS:
+    name: '&x&F&F&F&F&5&5Lenticchie'
+  GN_TURNIP:
+    name: '&x&F&F&F&F&5&5Rapa'
+  GN_SQUASH_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di zucca'
+  GN_COOKED_SQUID:
+    name: '&x&F&F&F&F&5&5Calamaro cotto'
+  GN_COOKED_MACKEREL:
+    name: '&x&F&F&F&F&5&5Sgombro cotto'
+  GN_SPINACH:
+    name: '&x&F&F&F&F&5&5Spinaci'
+  GN_LYCHEE:
+    name: '&x&F&F&F&F&5&5Litchi'
+  GN_RYE:
+    name: '&x&F&F&F&F&5&5Segale'
+  GN_RAW_MACKEREL:
+    name: '&x&F&F&F&F&5&5Sgombro crudo'
+  GN_RAW_BASS:
+    name: '&x&F&F&F&F&5&5Branzino crudo'
+  GN_RAW_SQUID:
+    name: '&x&F&F&F&F&5&5Calamaro crudo'
+  GN_SPINACH_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di spinaci'
+  GN_TURNIP_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di rapa'
+  GN_ASPARAGUS_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di asparago'
+  GN_BOK_CHOY_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di bok choy'
+  GN_CAULIFLOWER_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di cavolfiore'
+  GN_RED_BEANS:
+    name: '&x&F&F&F&F&5&5Fagioli rossi'
+  GN_KING_OYSTER_MUSHROOM:
+    name: '&x&F&F&F&F&5&5Fungo cardoncello'
+  GN_PEANUTS:
+    name: '&x&F&F&F&F&5&5Arachidi'
+  GN_CAULIFLOWER:
+    name: '&x&F&F&F&F&5&5Cavolfiore'
+  GN_VANILLA_PLANT:
+    name: '&x&F&F&F&F&5&5Pianta di vaniglia'
+  GN_CUCUMBER_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di cetriolo'
+  GN_AVOCADO_PIT:
+    name: '&x&F&F&F&F&5&5Nocciolo di avocado'
+  GN_BEANS:
+    name: '&x&F&F&F&F&5&5Fagioli'
+  GN_SORGHUM:
+    name: '&x&F&F&F&F&5&5Sorgo'
+  GN_COOKED_BASS:
+    name: '&x&F&F&F&F&5&5Branzino cotto'
+  GN_PARSLEY:
+    name: '&x&F&F&F&F&5&5Prezzemolo'
+  GN_GUARDIAN_FIN:
+    name: '&x&F&F&F&F&5&5Pinna di guardiano'
+  GN_RAW_CHEVON:
+    name: '&x&F&F&F&F&5&5Carne di capra cruda'
+  GN_CHILI_PEPPER_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di peperoncino'
+  GN_LYCHEE_SAPLING:
+    name: '&x&F&F&F&F&5&5Alberello di litchi'
+  GN_QUINOA:
+    name: '&x&F&F&F&F&5&5Quinoa'
+  GN_BANANA_SAPLING:
+    name: '&x&F&F&F&F&5&5Alberello di banano'
+  GN_AVOCADO:
+    name: '&x&F&F&F&F&5&5Avocado'
+  GN_VANILLA_BEANS:
+    name: '&x&F&F&F&F&5&5Baccelli di vaniglia'
+  GN_RAW_TURKEY:
+    name: '&x&F&F&F&F&5&5Tacchino crudo'
+  GN_HONEYDEW_MELON_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di melone verde'
+  GN_CHILI_PEPPER:
+    name: '&x&F&F&F&F&5&5Peperoncino'
+  GN_GREEN_ONION:
+    name: '&x&F&F&F&F&5&5Cipollotto'
+  GN_GREEN_ONION_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di cipollotto'
+  GN_BASIL:
+    name: '&x&F&F&F&F&5&5Basilico'
+  GN_BOK_CHOY:
+    name: '&x&F&F&F&F&5&5Bok choy'
+  GN_CANTALOUPE_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di melone cantalupo'
+  GN_SALMON_ROE:
+    name: '&x&F&F&F&F&5&5Uova di salmone'
+  GN_RYE_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di segale'
+  GN_RAW_TROUT:
+    name: '&x&F&F&F&F&5&5Trota cruda'
+  GN_ENOKI_MUSHROOMS:
+    name: '&x&F&F&F&F&5&5Funghi enoki'
+  GN_SQUASH:
+    name: '&x&F&F&F&F&5&5Zucca'
+  GN_BRUSSLES_SPROUTS:
+    name: '&x&F&F&F&F&5&5Cavoletti di Bruxelles'
+  GN_RAW_CARP:
+    name: '&x&F&F&F&F&5&5Carpa cruda'
+  GN_CANTALOUPE:
+    name: '&x&F&F&F&F&5&5Melone cantalupo'
+  GN_MINT_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di menta'
+  GN_BROCCOLI_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di broccoli'
+  GN_COOKED_CHEVON:
+    name: '&x&F&F&F&F&5&5Carne di capra cotta'
+  GN_RAW_PIKE:
+    name: '&x&F&F&F&F&5&5Luccio crudo'
+  GN_FIDDLEHEADS:
+    name: '&x&F&F&F&F&5&5Germogli di felce'
+  GN_COOKED_TROUT:
+    name: '&x&F&F&F&F&5&5Trota cotta'
+  GN_BANANA:
+    name: '&x&F&F&F&F&5&5Banana'
+  GN_CLAM:
+    name: '&x&F&F&F&F&5&5Vongola'
+  GN_RICE:
+    name: '&x&F&F&F&F&5&5Riso'
+  GN_BARLEY:
+    name: '&x&F&F&F&F&5&5Orzo'
+  GN_CRAB:
+    name: '&x&F&F&F&F&5&5Granchio'
+  GN_MINT:
+    name: '&x&F&F&F&F&5&5Menta'
+  GN_COOKED_EEL:
+    name: '&x&F&F&F&F&5&5Anguilla cotta'
+  GN_PEAS:
+    name: '&x&F&F&F&F&5&5Piselli'
+  GN_PARSLEY_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di prezzemolo'
+  GN_ASPARAGUS:
+    name: '&x&F&F&F&F&5&5Asparago'
+  GN_CELERY:
+    name: '&x&F&F&F&F&5&5Sedano'
+  GN_CUMIN_SEEDS:
+    name: '&x&F&F&F&F&5&5Semi di cumino'
+  GN_COOKED_CARP:
+    name: '&x&F&F&F&F&5&5Carpa cotta'
+  GN_RAW_EEL:
+    name: '&x&F&F&F&F&5&5Anguilla cruda'
+  GN_TRUFFLE:
+    name: '&x&F&F&F&F&5&5Tartufo'
+  GN_BUTTON_MUSHROOM:
+    name: '&x&F&F&F&F&5&5Champignon'
+  GN_CASSAVA:
+    name: '&x&F&F&F&F&5&5Manioca'
+  GN_BROCCOLI:
+    name: '&x&F&F&F&F&5&5Broccoli'
+  GN_SOYBEANS:
+    name: '&x&F&F&F&F&5&5Soia'
+  GN_OATS:
+    name: '&x&F&F&F&F&5&5Avena'
+  GN_COOKED_PIKE:
+    name: '&x&F&F&F&F&5&5Luccio cotto'
+
+
