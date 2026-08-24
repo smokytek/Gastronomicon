@@ -24,6 +24,7 @@ import java.util.Map;
 final class ItalianTranslations {
 
     private static final Field ITEM_STACK_TEMPLATE = itemStackTemplateField();
+    private static final Field RECIPE_OUTPUT = recipeOutputField();
     private static final Field ITEM_STACK_LOCKED = itemStackLockedField();
 
     private static final List<String> FILES = Arrays.asList(
@@ -81,18 +82,31 @@ final class ItalianTranslations {
     private static boolean translate(SlimefunItem slimefunItem, Translation translation) {
         if (translation.name == null) return false;
         ItemStack item = null;
+        ItemStack recipeOutput = null;
         try {
             item = (ItemStack) ITEM_STACK_TEMPLATE.get(slimefunItem);
             if (item instanceof SlimefunItemStack) {
                 ITEM_STACK_LOCKED.setBoolean(item, false);
             }
-            return translate(item, translation);
+            boolean translated = translate(item, translation);
+
+            recipeOutput = (ItemStack) RECIPE_OUTPUT.get(slimefunItem);
+            if (recipeOutput != null && recipeOutput != item) {
+                if (recipeOutput instanceof SlimefunItemStack) {
+                    ITEM_STACK_LOCKED.setBoolean(recipeOutput, false);
+                }
+                translated |= translate(recipeOutput, translation);
+            }
+            return translated;
         } catch (IllegalAccessException ex) {
             return false;
         } finally {
             try {
                 if (item instanceof SlimefunItemStack) {
                     ITEM_STACK_LOCKED.setBoolean(item, true);
+                }
+                if (recipeOutput instanceof SlimefunItemStack) {
+                    ITEM_STACK_LOCKED.setBoolean(recipeOutput, true);
                 }
             } catch (IllegalAccessException ignored) {
                 // Il modello deve comunque rimanere utilizzabile anche se il riblocco fallisce.
@@ -126,6 +140,16 @@ final class ItalianTranslations {
     private static Field itemStackLockedField() {
         try {
             Field field = SlimefunItemStack.class.getDeclaredField("locked");
+            field.setAccessible(true);
+            return field;
+        } catch (ReflectiveOperationException ex) {
+            throw new ExceptionInInitializerError(ex);
+        }
+    }
+
+    private static Field recipeOutputField() {
+        try {
+            Field field = SlimefunItem.class.getDeclaredField("recipeOutput");
             field.setAccessible(true);
             return field;
         } catch (ReflectiveOperationException ex) {
