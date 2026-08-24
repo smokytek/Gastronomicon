@@ -1,6 +1,7 @@
 package io.github.schntgaispock.gastronomicon.core.setup;
 
 import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -301,7 +302,15 @@ public class ItemSetup {
                 final List<ItemStack> possibleDrops = dropsByBiome.get(l.getBlock().getBiome());
                 if (possibleDrops == null || possibleDrops.isEmpty())
                     return null;
-                return CollectionUtil.choice(possibleDrops);
+
+                final List<ItemStack> validDrops = new ArrayList<>();
+                for (ItemStack drop : possibleDrops) {
+                    if (drop != null && !drop.getType().isAir() && drop.getAmount() > 0) {
+                        validDrops.add(drop);
+                    }
+                }
+
+                return validDrops.isEmpty() ? null : CollectionUtil.choice(validDrops).clone();
             }
 
             @Override

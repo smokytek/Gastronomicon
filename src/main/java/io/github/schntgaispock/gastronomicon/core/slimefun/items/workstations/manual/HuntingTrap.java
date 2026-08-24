@@ -134,6 +134,13 @@ public abstract class HuntingTrap extends SimpleSlimefunItem<BlockUseHandler> {
     }
 
     private void dropCatch(Location l) {
-        l.getWorld().dropItemNaturally(l, getCatch(l));
+        final ItemStack caught = getCatch(l);
+        if (caught == null || caught.getType().isAir() || caught.getAmount() <= 0) {
+            Gastronomicon.getInstance().getLogger().warning(
+                "La trappola " + getId() + " non ha prodotto una ricompensa valida in " + l);
+            return;
+        }
+
+        l.getWorld().dropItemNaturally(l, caught.clone());
     }
 }
