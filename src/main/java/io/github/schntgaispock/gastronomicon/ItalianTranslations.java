@@ -21,7 +21,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 /** Carica e applica la localizzazione italiana configurabile prima e dopo la registrazione. */
-final class ItalianTranslations {
+public final class ItalianTranslations {
 
     private static final Field ITEM_STACK_TEMPLATE = field(SlimefunItem.class, "itemStackTemplate");
     private static final Field RECIPE_OUTPUT = field(SlimefunItem.class, "recipeOutput");
@@ -35,6 +35,13 @@ final class ItalianTranslations {
     private static final Map<String, Translation> TRANSLATIONS = new HashMap<>();
 
     private ItalianTranslations() {}
+
+    /** Viene richiamato dai costruttori: ogni nuovo stack nasce già localizzato. */
+    public static <T extends SlimefunItemStack> T translateNewItem(T stack) {
+        Translation translation = TRANSLATIONS.get(stack.getItemId());
+        if (translation != null) translateUnlocked(stack, translation, false);
+        return stack;
+    }
 
     static void load(Gastronomicon plugin) {
         TRANSLATIONS.clear();

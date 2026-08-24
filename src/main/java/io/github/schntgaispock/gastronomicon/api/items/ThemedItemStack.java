@@ -8,6 +8,7 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.meta.ItemMeta;
 
+import io.github.schntgaispock.gastronomicon.ItalianTranslations;
 import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 
 public class ThemedItemStack extends SlimefunItemStack {
@@ -15,11 +16,13 @@ public class ThemedItemStack extends SlimefunItemStack {
     @ParametersAreNonnullByDefault
     protected ThemedItemStack(String id, Material material, String name, String... lore) {
         super(id, material, name, lore);
+        ItalianTranslations.translateNewItem(this);
     }
 
     @ParametersAreNonnullByDefault
     protected ThemedItemStack(String id, String texture, String name, String... lore) {
         super(id, texture, name, lore);
+        ItalianTranslations.translateNewItem(this);
     }
 
     @Override
@@ -29,7 +32,7 @@ public class ThemedItemStack extends SlimefunItemStack {
     }
 
     public @Nonnull String getDisplayName() {
-        String name = getDisplayName();
+        String name = super.getDisplayName();
         return (name == null) ? "NO NAME GIVEN" : name;
     }
 

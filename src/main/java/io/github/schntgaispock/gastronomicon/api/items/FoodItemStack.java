@@ -8,6 +8,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 
 import org.bukkit.Material;
 
+import io.github.schntgaispock.gastronomicon.ItalianTranslations;
 import io.github.schntgaispock.gastronomicon.api.food.FoodEffect;
 import io.github.schntgaispock.gastronomicon.util.NumberUtil;
 import io.github.schntgaispock.gastronomicon.util.item.HeadTextures;
@@ -44,6 +45,7 @@ public class FoodItemStack extends SlimefunItemStack {
         this.effects = effects;
         this.perfectLore = perfectLore;
         this.perfect = perfect;
+        ItalianTranslations.translateNewItem(this);
 
     }
 
@@ -58,6 +60,7 @@ public class FoodItemStack extends SlimefunItemStack {
         this.effects = effects;
         this.perfectLore = perfectLore;
         this.perfect = perfect;
+        ItalianTranslations.translateNewItem(this);
     }
 
     @ParametersAreNonnullByDefault
