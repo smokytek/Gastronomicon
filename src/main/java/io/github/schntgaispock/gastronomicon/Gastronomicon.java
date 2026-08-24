@@ -61,8 +61,10 @@ public class Gastronomicon extends AbstractAddon {
         metrics.addCustomChart(
             new SimplePie("exoticgardenInstalled", () -> Boolean.toString(isPluginEnabled("ExoticGarden"))));
 
+        ItalianTranslations.load(this);
+        ItalianTranslations.applyTemplates();
         ItemSetup.setup();
-        ItalianTranslations.apply(this);
+        ItalianTranslations.applyRegistered();
         ResearchSetup.setup();
         ListenerSetup.setup();
         CommandSetup.setup();

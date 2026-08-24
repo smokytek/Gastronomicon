@@ -1,5 +1,9 @@
 name: Gastronomicon
 translations:
+  GN_FRIED_CALAMARI:
+    name: '&x&1&D&9&0&F&4Calamari fritti'
+    lore:
+    - '&7&o+&b&o2.5 &7&oFame'
   GN_PERFECT_SHRIMP_FRIED_RICE:
     name: '&x&C&9&1&D&F&4Riso fritto con gamberi'
     lore:

@@ -1,0 +1,14 @@
+name: Gastronomicon
+translations:
+  CATEGORY_MAIN:
+    name: '&x&C&9&1&D&F&4Gastronomicon'
+  CATEGORY_TOOLS:
+    name: '&x&F&F&A&A&0&0Strumenti'
+  CATEGORY_BASIC_MACHINES:
+    name: '&x&F&F&A&A&0&0Macchinari di base'
+  CATEGORY_ELECTRIC_MACHINES:
+    name: '&x&A&A&A&A&F&FMacchinari elettrici'
+  CATEGORY_RAW_INGREDIENTS:
+    name: '&x&F&F&F&F&5&5Ingredienti grezzi'
+  CATEGORY_FOOD:
+    name: '&x&1&D&9&0&F&4Cibo'
